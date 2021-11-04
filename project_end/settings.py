@@ -25,7 +25,7 @@ SECRET_KEY = '&!^+wbv#h#&yn*0pod+nhgio8stcm9d1cx*+^r2)z*ie_4a5&8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://nameless-reef-97317.herokuapp.com/']
+ALLOWED_HOSTS = ['https://mysterious-peak-79787.herokuapp.com/']
 
 
 # Application definition
