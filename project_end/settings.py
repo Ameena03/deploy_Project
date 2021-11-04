@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -88,6 +88,7 @@ DATABASES={
       'PORT':'5432',
    }
 }
+DATABASES['default'] = dj_database_url.config(default='postgres://ffprmyivejwqgn:34c559060ac95373c9b239689b1070d51d819b9c523f7033f952a00f772f90d3@ec2-3-218-92-146.compute-1.amazonaws.com:5432/d13ldpap2kgphh'}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
